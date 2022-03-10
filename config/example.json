@@ -1,0 +1,6 @@
+{
+	"configName": "EXAMPLE",
+    "mongoURL": "mongodb://localhost/",
+    "cronExp": "0 0 4 * * 0",
+    "daysRelevance": 14
+}
