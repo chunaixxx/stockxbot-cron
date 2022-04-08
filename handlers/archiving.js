@@ -1,10 +1,10 @@
 import moment from 'moment'
-import Good from './models/Good'
-import BotConfig from './models/BotConfig'
+import Good from '../models/Good'
+import BotConfig from '../models/BotConfig'
 
 moment.locale('ru')
 
-const jobHandler = async () => {
+const archivingHandler = async () => {
     const botConfig = await BotConfig.findOne()
     
 	const nowDate = moment()
@@ -49,4 +49,4 @@ const jobHandler = async () => {
 	}
 }
 
-export default jobHandler
+export default archivingHandler
